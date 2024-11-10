@@ -1,0 +1,9 @@
+# config/litellm.config.yaml
+model_list:
+  - model_name: groq/llama3-groq-70b-8192-tool-use-preview
+    litellm_params:
+      model: groq/llama3-groq-70b-8192-tool-use-preview
+      api_key: ${GROQ_API_KEY}
+      api_base: https://api.groq.com/v1
+
+default_model: groq/llama3-groq-70b-8192-tool-use-preview
